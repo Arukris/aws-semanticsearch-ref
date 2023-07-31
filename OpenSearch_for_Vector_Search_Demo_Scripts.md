@@ -36,7 +36,7 @@ POST /_plugins/_ml/models/_upload
 {
     "name": "huggingface/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
     "version": "1.0.1",
-    "model_format": "TORCH_SCRIPT",
+    "model_format": "TORCH_SCRIPT"
 }
 ```
 
