@@ -1,4 +1,4 @@
-# OpenSearch for Vector Search 
+# OpenSearch for Vector Search | Experimental Neural plugin available with Version 2.5+
 ## _Power your retail store with semantic search in just minutes!_
 
 
