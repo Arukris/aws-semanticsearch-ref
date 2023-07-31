@@ -1,5 +1,5 @@
 # OpenSearch for Vector Search
-_[Experimental Neural plugin available with Version 2.5+]
+_[Experimental Neural plugin available with Version 2.5+]_
 ## _Power your retail store with semantic search in just minutes!_
 
 
