@@ -1,5 +1,5 @@
 # OpenSearch 2.7 for Vector Search
-_[Experimental Neural plugin available with version 2.7]_
+_[Experimental Local model support using OpenSearch Neural plugin available with version 2.7]_
 ## _Power your retail store with semantic search in just minutes!_
 
 
