@@ -182,4 +182,40 @@ On the right we have the _Neural Search_ DSL query
 }
 ```
 
+Alternate _neural_ query with boolean
+```
+{
+  "size": 100,
+  "_source": {
+    "includes": [
+      "name",
+      "description"
+    ]
+  },
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "neural": {
+            "name_v": {
+              "query_text": "%SearchText%",
+              "model_id": "modelId",
+              "k": 100
+            }
+          }
+        },
+        {
+          "neural": {
+            "desc_v": {
+              "query_text": "%SearchText%",
+              "model_id": "modelId",
+              "k": 100
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+```
 _Now have fun trying out [OpenSearch Neural Plugin](https://opensearch.org/docs/latest/search-plugins/neural-search/) to build vector search using different pre-trained models on the [OpenSearch website](https://opensearch.org/docs/latest/ml-commons-plugin/pretrained-models/)!_
