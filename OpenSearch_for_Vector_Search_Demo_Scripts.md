@@ -183,7 +183,7 @@ On the right we have the _Neural Search_ DSL query
 ```
 
 Alternate _neural_ query with boolean
-```
+```json
 {
   "size": 100,
   "_source": {
